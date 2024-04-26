@@ -1,0 +1,4 @@
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/reentrancy/0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '600']
+Settings: {files: [(None, 'smartbugs/dataset/reentrancy/0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_1707, overwrite: False, processes: 2, timeout: 600, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_1707/${FILENAME}, log: results/logs/20231125_1707.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/reentrancy/0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol
+Analysis completed in 0:10:12.

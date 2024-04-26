@@ -1,0 +1,8 @@
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/reentrancy/reentrancy_dao.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '600']
+Settings: {files: [(None, 'smartbugs/dataset/reentrancy/reentrancy_dao.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_1644, overwrite: False, processes: 2, timeout: 600, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_1644/${FILENAME}, log: results/logs/20231125_1644.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/reentrancy/reentrancy_dao.sol
+Analysis completed in 0:00:19.
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/reentrancy/modifier_reentrancy.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '600']
+Settings: {files: [(None, 'smartbugs/dataset/reentrancy/modifier_reentrancy.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_1644, overwrite: False, processes: 2, timeout: 600, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_1644/${FILENAME}, log: results/logs/20231125_1644.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/reentrancy/modifier_reentrancy.sol
+Analysis completed in 0:00:34.

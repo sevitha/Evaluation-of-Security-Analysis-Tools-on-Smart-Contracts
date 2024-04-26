@@ -1,0 +1,8 @@
+INFO:Slither:Compilation warnings/errors on /sb/arbitrary_location_write_simple.sol:
+[91m/sb/arbitrary_location_write_simple.sol:8:26: Error: Expected pragma, import directive or contract/interface/library definition.[0m
+pragma solidity >=0.4.20;;
+                         ^
+
+INFO:SlitherSolcParsing:No contract were found in /sb/arbitrary_location_write_simple.sol, check the correct compilation
+WARNING:Slither:[91mNo contract was analyzed[0m
+INFO:Slither:/sb/arbitrary_location_write_simple.sol analyzed (0 contracts), 0 result(s) found

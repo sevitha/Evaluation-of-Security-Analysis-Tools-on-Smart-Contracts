@@ -1,0 +1,4 @@
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '600']
+Settings: {files: [(None, 'smartbugs/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_2249, overwrite: False, processes: 2, timeout: 600, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_2249/${FILENAME}, log: results/logs/20231125_2249.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/unchecked_low_level_calls/0xb0510d68f210b7db66e8c7c814f22680f2b8d1d6.sol
+Analysis completed in 0:09:29.

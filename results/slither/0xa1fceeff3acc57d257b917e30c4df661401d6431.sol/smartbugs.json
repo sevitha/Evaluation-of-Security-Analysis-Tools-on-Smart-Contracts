@@ -1,0 +1,51 @@
+{
+    "docker": {
+        "command": null,
+        "detach": true,
+        "entrypoint": "'/sb/bin/do_solidity.sh' '/sb/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol' '600' '/sb/bin'",
+        "image": "smartbugs/slither",
+        "mem_limit": "8g",
+        "user": 0,
+        "volumes": {
+            "/var/folders/pr/6y5wl3m935x8v2tmwx7j5dq00000gn/T/tmpohm02qxm": {
+                "bind": "/sb",
+                "mode": "rw"
+            }
+        }
+    },
+    "filename": "smartbugs/dataset/unchecked_low_level_calls/0xa1fceeff3acc57d257b917e30c4df661401d6431.sol",
+    "platform": {
+        "cpu": "Apple M1",
+        "python": "3.9.13.final.0 (64 bit)",
+        "release": "23.1.0",
+        "smartbugs": "2.0.8",
+        "system": "Darwin",
+        "version": "Darwin Kernel Version 23.1.0: Mon Oct  9 21:28:12 PDT 2023; root:xnu-10002.41.9~6/RELEASE_ARM64_T8103"
+    },
+    "result": {
+        "duration": 1.263991117477417,
+        "exit_code": 6,
+        "logs": "result.log",
+        "output": "result.tar",
+        "start": 1700983979.285013
+    },
+    "runid": "20231126_0732",
+    "solc": "0.4.26",
+    "tool": {
+        "bin": "scripts",
+        "command": null,
+        "cpu_quota": null,
+        "entrypoint": "'$BIN/do_solidity.sh' '$FILENAME' '$TIMEOUT' '$BIN'",
+        "id": "slither",
+        "image": "smartbugs/slither",
+        "info": "Slither is a Solidity static analysis framework written in Python 3. It runs a suite of vulnerability detectors and prints visual information about contract details. Slither enables developers to find vulnerabilities, enhance their code comphrehension, and quickly prototype custom analyses.",
+        "mem_limit": null,
+        "mode": "solidity",
+        "name": "Slither",
+        "origin": "https://github.com/crytic/slither",
+        "output": "/output.json",
+        "parser": "parser.py",
+        "solc": true,
+        "version": null
+    }
+}

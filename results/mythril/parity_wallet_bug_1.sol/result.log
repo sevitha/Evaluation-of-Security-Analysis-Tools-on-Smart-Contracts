@@ -1,0 +1,1 @@
+{"success": false, "error": "Solc experienced a fatal error.\n\nParserError: Expected '{' but got 'constant'\n  --> /sb/parity_wallet_bug_1.sol:59:35:\n   |\n59 |   function isOwner(address _addr) constant returns (bool);\n   |                                   ^^^^^^^^\n\n", "issues": []}

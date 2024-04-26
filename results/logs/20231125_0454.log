@@ -1,0 +1,8 @@
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/access_control/arbitrary_location_write_simple.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '1200']
+Settings: {files: [(None, 'smartbugs/dataset/access_control/arbitrary_location_write_simple.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_0454, overwrite: False, processes: 2, timeout: 1200, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_0454/${FILENAME}, log: results/logs/20231125_0454.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/access_control/arbitrary_location_write_simple.sol
+Analysis completed in 0:00:08.
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/access_control/mycontract.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '1200']
+Settings: {files: [(None, 'smartbugs/dataset/access_control/mycontract.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_0454, overwrite: False, processes: 2, timeout: 1200, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_0454/${FILENAME}, log: results/logs/20231125_0454.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/access_control/mycontract.sol
+Analysis completed in 0:00:15.

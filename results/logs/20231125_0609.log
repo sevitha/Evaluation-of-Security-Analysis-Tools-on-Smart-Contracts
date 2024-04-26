@@ -1,0 +1,2 @@
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/denial_of_service/dos_address.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '1200']
+Settings: {files: [(None, 'smartbugs/dataset/denial_of_service/dos_address.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_0609, overwrite: False, processes: 2, timeout: 1200, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_0609/${FILENAME}, log: results/logs/20231125_0609.log, json: False, sarif: False, quiet: False}

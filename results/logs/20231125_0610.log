@@ -1,0 +1,11 @@
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/bad_randomness/random_number_generator.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '1200']
+Settings: {files: [(None, 'smartbugs/dataset/bad_randomness/random_number_generator.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_0610, overwrite: False, processes: 2, timeout: 1200, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_0610/${FILENAME}, log: results/logs/20231125_0610.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/bad_randomness/random_number_generator.sol
+Analysis completed in 0:00:07.
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/bad_randomness/lottery.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '1200']
+Settings: {files: [(None, 'smartbugs/dataset/bad_randomness/lottery.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_0610, overwrite: False, processes: 2, timeout: 1200, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_0610/${FILENAME}, log: results/logs/20231125_0610.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/bad_randomness/lottery.sol
+Analysis completed in 0:00:16.
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/bad_randomness/old_blockhash.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '1200']
+Settings: {files: [(None, 'smartbugs/dataset/bad_randomness/old_blockhash.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_0610, overwrite: False, processes: 2, timeout: 1200, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_0610/${FILENAME}, log: results/logs/20231125_0610.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/bad_randomness/old_blockhash.sol

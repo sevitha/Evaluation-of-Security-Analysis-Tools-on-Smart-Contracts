@@ -1,0 +1,8 @@
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/time_manipulation/ether_lotto.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '600']
+Settings: {files: [(None, 'smartbugs/dataset/time_manipulation/ether_lotto.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_2356, overwrite: False, processes: 2, timeout: 600, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_2356/${FILENAME}, log: results/logs/20231125_2356.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/time_manipulation/ether_lotto.sol
+Analysis completed in 0:00:15.
+Arguments passed: ['/Users/siddharthaneerukonda/smartbugs/sb/__main__.py', '-t', 'mythril', '-f', 'smartbugs/dataset/time_manipulation/roulette.sol', '--processes', '2', '--mem-limit', '8g', '--timeout', '600']
+Settings: {files: [(None, 'smartbugs/dataset/time_manipulation/roulette.sol')], main: False, runtime: False, tools: ['mythril'], runid: 20231125_2356, overwrite: False, processes: 2, timeout: 600, cpu_quota: None, mem_limit: 8g, results: results/${TOOL}/20231125_2356/${FILENAME}, log: results/logs/20231125_2356.log, json: False, sarif: False, quiet: False}
+Starting task 1/1: mythril-0.23.15 and smartbugs/dataset/time_manipulation/roulette.sol
+Analysis completed in 0:02:56.
